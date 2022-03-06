@@ -21,7 +21,7 @@ int cbinsearch(int *arr, int size, int value) {
           last = pol;
       } else {
           start = pol;
-          start +=1;
+          start += 1;
       }
     }
     if (arr[start] == value && start == last) {
